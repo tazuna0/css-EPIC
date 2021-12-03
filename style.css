@@ -1,0 +1,22 @@
+ul {
+    border-bottom: 2px solid red;
+    border-top: 3px solid red;
+    overflow: hidden
+}
+
+li {
+    display: inline;
+    color:gray;
+    text-decoration: none;
+}
+
+li a {
+    float: left;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    color: gray;
+}
+li a:hover {
+    color:#B30000;
+}

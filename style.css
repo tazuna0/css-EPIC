@@ -1,7 +1,7 @@
 ul {
-    border-bottom: 2px solid red;
-    border-top: 3px solid red;
-    overflow: hidden
+    border-bottom: 2px solid #B30000;
+    border-top: 3px solid #B30000;
+    overflow: hidden;
 }
 
 li {

@@ -1,22 +1,70 @@
 ul {
     border-bottom: 2px solid #B30000;
     border-top: 3px solid #B30000;
-    overflow: hidden;
+    overflow: hidden
 }
 
 li {
-    display: inline;
+    float: left;
     color:gray;
     text-decoration: none;
+    list-style-type: none;
 }
 
 li a {
     float: left;
-    text-align: center;
     padding: 5px;
     text-decoration: none;
     color: gray;
 }
-li a:hover {
+
+ul li::marker {
+    color:black
+}
+
+.headerl a:hover {
     color:#B30000;
+}
+
+
+.footerl {
+   padding: 2px;
+   color: blue;
+   text-decoration: underline;
+   float: none;
+   list-style-type: disc;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 0px;
+}
+td {
+    margin: 3px;
+    color: white;
+    text-align: center;
+}
+
+.color {
+    background-color: brown;
+}
+
+.rgb {
+    background-color:rgb(105, 100, 155);
+}
+
+.hsl {
+    background-color:hsl(128, 80%, 25%);
+}
+
+.rgba {
+    background-color:rgb(255, 0, 90, 1)
+}
+
+.hex {
+    background-color:#123456;
+}
+
+.hsla {
+    background-color: hsla(50, 100%, 50%, 1);
 }

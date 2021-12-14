@@ -1,3 +1,15 @@
+h1 {
+    font-family: Raleway;
+}
+
+p {
+    font-family: Raleway;
+}
+
+h2 {
+    font-family: Raleway;
+}
+
 ul {
     border-bottom: 2px solid #B30000;
     border-top: 3px solid #B30000;
@@ -11,7 +23,7 @@ li {
     list-style-type: none;
 }
 
-li a {
+.ah {
     float: left;
     padding: 5px;
     text-decoration: none;
@@ -29,9 +41,8 @@ ul li::marker {
 
 .footerl {
    padding: 2px;
-   color: blue;
-   text-decoration: underline;
    float: none;
+   color: blue;
    list-style-type: disc;
 }
 
@@ -67,4 +78,61 @@ td {
 
 .hsla {
     background-color: hsla(50, 100%, 50%, 1);
+}
+
+.pbla {
+    color:blue;
+}
+
+.poverline {
+    text-decoration: overline;
+}
+
+.pstrikethrough {
+    text-decoration: line-through;
+}
+
+.pavstand {
+    letter-spacing: 3px;
+}
+
+.pcenter {
+    text-align: center;
+}
+
+.pright {
+    text-align: right;
+}
+
+.pshadow {
+    text-shadow: 2px 2px;
+}
+
+.boxmodel {
+    width: 300px;
+}
+
+.dmargin {
+    border: 20px solid cyan;
+    background-color: cyan;
+    margin: 20px;
+    text-align: center;
+}
+
+.dborder {
+    border: 20px solid lime;
+    background-color: lime;
+    text-align: center;
+}
+
+.dpadding {
+    background-color: violet;
+    border: 20px solid violet;
+    text-align: center;
+}
+
+.dcontent {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
 }

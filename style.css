@@ -58,30 +58,37 @@ td {
 
 .color {
     background-color: brown;
+    padding: 10px;
 }
 
 .rgb {
     background-color:rgb(105, 100, 155);
+    padding: 10px;
 }
 
 .hsl {
     background-color:hsl(128, 80%, 25%);
+    padding: 10px;
 }
 
 .rgba {
-    background-color:rgb(255, 0, 90, 1)
+    background-color:rgb(255, 0, 90, 1);
+    padding: 10px;
 }
 
 .hex {
     background-color:#123456;
+    padding: 10px;
 }
 
 .hsla {
     background-color: hsla(50, 100%, 50%, 1);
+    padding: 10px;
 }
 
 .pbla {
     color:blue;
+    padding: 10px;
 }
 
 .poverline {
